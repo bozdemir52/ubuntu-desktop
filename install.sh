@@ -32,7 +32,7 @@ sudo apt-get -y install task-gnome-desktop
 elif [[ $dsrt = "Ubuntu" ]] ; then
 sudo apt -y install xfce4
 echo xfce4-session >~/.xsession 
-sudo apt-get -y install firefox 
+sudo apt-get -y install chrome 
 sudo service xrdp restart
 fi
 fi
